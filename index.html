@@ -115,7 +115,6 @@
                                 <p>모션그래픽 및 사운드 작업</p>
                                 <button>자세히 보기</button>
                             </div>
-                            
                         </li>
                         <li>
                             <!-- new -->
@@ -217,11 +216,33 @@
                 </div>
             </section>
         </div>
+        <!-- 하단 -->
+        <footer class="footer">
+            <div class="inner">
+                <!-- upper -->
+                <div class="upper">
+                    <a href="#" class="footer-logo">GREEN-A</a>
+                    <ul>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Family Site</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <!-- lower -->
+                <div class="lower">
+                    <address>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, facere.<br />
+                        TEL : 053-111-1234 C.P : 010-1234-5678
+                    </address>
+                    <p>2026 YM_Portfolio &copy; copyright all right reserved.</p>
+                </div>
+            </div>
+        </footer>
         <script>
             const videos = ["images/video1.mp4", "images/video2.mp4", "images/video3.mp4"]; // 재생할 영상 목록
             let currentVideoIndex = 0;
             const player = document.getElementById("videoPlayer");
-
             player.onended = function () {
                 currentVideoIndex++;
                 if (currentVideoIndex < videos.length) {
