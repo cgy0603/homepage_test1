@@ -249,12 +249,14 @@ figure video {
 /* 각각 길이 */
 .html {
     max-width: 90%;
+    background-color: #f00;
 }
 .css {
     max-width: 85%;
 }
 .js {
     max-width: 70%;
+    background-color: rgb(255, 166, 0);
 }
 /* 애니메이션 */
 @keyframes fillAni {
